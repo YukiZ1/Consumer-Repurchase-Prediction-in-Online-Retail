@@ -9,11 +9,13 @@ And use the purchase data of Jingdong to carry out empirical analysis to verify 
 
 Four binary classifiers—XGBoost, Random Forest, Logistic Regression, and SVM—were employed for training and prediction.
 Model performance was evaluated using Monte Carlo Cross-Validation with uniform random sampling. **XGBoost achieved the best performance, with consistently high accuracy and AUC across trials and notably shorter runtime.**
-<img width="641" height="187" alt="image" src="https://github.com/user-attachments/assets/ea5d58d7-4aef-47e6-906a-3f8af5d8be15" />
+
+<img width="641" height="187" alt="image" src="https://github.com/user-attachments/assets/ea5d58d7-4aef-47e6-906a-3f8af5d8be15" /><br>
+
 
 The important characteristics of each group are the month of first purchase, the brand of the product, the final price of the product in the order, and the total number of clicks before placing the order. 
 
-<img width="650"  alt="image" src="https://github.com/user-attachments/assets/f79b6807-7699-4ae3-a520-06465c0fee69" />
+<img width="650"  alt="image" src="https://github.com/user-attachments/assets/f79b6807-7699-4ae3-a520-06465c0fee69" /><br>
 
 In addition, experiments with different feature groups verify both the importance and irreplaceability of each feature group. 
 The results show that **product features**, despite a lower standalone AUC (0.6615), **provide unique and irreplaceable information for prediction**, as indicated by the lowest exclusive AUC (0.7521). 
