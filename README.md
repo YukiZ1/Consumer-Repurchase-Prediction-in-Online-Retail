@@ -15,12 +15,12 @@ The important characteristics of each group are the month of first purchase, the
 <img width="650"  alt="image" src="https://github.com/user-attachments/assets/f79b6807-7699-4ae3-a520-06465c0fee69" />
 
 In addition, experiments with different feature groups verify both the importance and irreplaceability of each feature group. 
-The results show that product features, despite a lower standalone AUC (0.6615), provide unique and irreplaceable information for prediction, as indicated by the lowest exclusive AUC (0.7521). 
-Promotion features yield the highest standalone AUC (0.7253), but their high exclusive AUC (0.7554) suggests redundancy in order-related information. 
-In contrast, user behavior features contribute little additional value, since their standalone AUC (0.6486) is the lowest and their exclusive AUC (0.7692) is nearly identical to that of the full-feature model.
+The results show that **product features**, despite a lower standalone AUC (0.6615), **provide unique and irreplaceable information for prediction**, as indicated by the lowest exclusive AUC (0.7521). 
+**Promotion features** yield the **highest standalone AUC** (0.7253), indicating their strong predictive power; But their high exclusive AUC (0.7554) suggests redundancy in order-related information. 
+In contrast, **user behavior features** **contribute little additional value**, since their standalone AUC (0.6486) is the lowest and their exclusive AUC (0.7692) is nearly identical to that of the full-feature model.
 
-Finally, according to the characteristic analysis, we give some suggestions to promote re-purchase. 
-For retailers, focus on brand building to attract repeat customers and target users based on their first-purchase timing to retain loyalty. 
-For e-commerce platforms, encourage merchant participation in discounts, highlight key promotional information (final price, total discount, product-specific discounts), and repeatedly display frequently clicked products to stimulate repurchase.
+Finally, according to the characteristic analysis, we give some **suggestions to promote re-purchase**. 
+**For retailers**, focus on brand building to attract repeat customers and target users based on their first-purchase timing to retain loyalty. 
+**For e-commerce platforms**, encourage merchant participation in discounts, highlight key promotional information (final price, total discount, product-specific discounts), and repeatedly display frequently clicked products to stimulate repurchase.
 
 KEY WORDS：**rebuy prediction  feature engineering  E-commerce**
