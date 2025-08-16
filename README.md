@@ -26,4 +26,4 @@ Finally, according to the characteristic analysis, we give some **suggestions to
 **For retailers**, focus on brand building to attract repeat customers and target users based on their first-purchase timing to retain loyalty. 
 **For e-commerce platforms**, encourage merchant participation in discounts, highlight key promotional information (final price, total discount, product-specific discounts), and repeatedly display frequently clicked products to stimulate repurchase.
 
-KEY WORDS：**rebuy prediction  feature engineering  E-commerce**
+KEY WORDS：**Rebuy Prediction,  Feature Engineering,  E-commerce**
